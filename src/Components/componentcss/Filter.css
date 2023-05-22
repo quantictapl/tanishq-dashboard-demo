@@ -1,0 +1,10 @@
+.filter-dropdown{
+    background-color: grey;
+    color:white; 
+    padding:0.2rem;
+    border-radius:5px;
+    margin-right: 2.4em;
+    border-right:6px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

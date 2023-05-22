@@ -1,0 +1,215 @@
+{
+  "all_counters":{"Counter_192": {
+    "counter_name":"Diamond Section",
+    "floor": "Floor 4",
+    "idle_time": "01:10h",
+    "count": 41,
+    "data": [ 
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+      { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+    ]
+  },
+  "Counter_193": {
+    "counter_name":"Necklace Section",
+      "floor": "Floor 1",
+      "idle_time": "02:20h",
+      "count": 37,
+      "data": [
+        { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+        { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 12:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+      ]
+    },
+    "Counter_194": {
+      "counter_name":"Earring Section",
+      "floor": "Floor 2",
+      "idle_time": "01:00h",
+      "count":34,
+      "data": [
+        { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+        { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+        { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+        { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+        { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+        { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+        { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+        { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+      ]
+    }    
+},
+"analytics":{
+"most_visited":{
+  "Counter_195": {
+    "counter_name":"Diamond Section",
+    "floor": "Floor 4",
+    "idle_time": "02:20h",
+    "count": 42,
+    "data": [ 
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 19:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 20:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" }
+    ]
+  },
+
+  "Counter_193": {
+    "counter_name":"Crown Section",
+    "floor": "Floor 1",
+    "idle_time": "01:70h",
+    "count": 41,
+    "data": [ 
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+  { "name": "Violation", "x":"counter","y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Engagement_Time", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+    ]
+  },
+  "Counter_194": {
+    "counter_name":"Earring Section",
+    "floor": "Floor 2",
+    "idle_time": "01:00h",
+    "count":34,
+    "data": [
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+      { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+      { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+      { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+      { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+      { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+      { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+      { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+    ]
+  }
+  
+},
+  "least_visited":{
+    "Counter_192": {
+      "counter_name":"Diamond Section",
+      "floor": "Floor 4",
+      "idle_time": "01:10h",
+      "count": 41,
+      "data": [ 
+        { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+  { "name": "Violation", "x":"counter","y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle", "x":"counter","y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+      ]
+    },
+    
+      "Counter_194": {
+        "counter_name":"Earring Section",
+        "floor": "Floor 2",
+        "idle_time": "01:00h",
+        "data": [
+          { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+          { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+          { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+          { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+          { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+          { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+          { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+          { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+        ]
+      },
+      "Counter_195": {
+        "counter_name":"Necklace Section",
+          "floor": "Floor 1",
+          "idle_time": "02:20h",
+          "count": 37,
+          "data": [
+            { "name": "Invisible", "x":"counter","y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+        { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+        { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+        { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+        { "name": "Wait", "x":"counter","y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+        { "name": "Counter_Idle", "x":"counter","y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+        { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+        { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" }
+          ]
+        }
+      
+
+},"unattended":{"Counter_195": {
+  "counter_name":"Necklace Section",
+    "floor": "Floor 1",
+    "idle_time": "02:20h",
+    "count": 37,
+    "data": [
+      { "name": "Invisible", "x":"counter","y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait", "x":"counter","y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle", "x":"counter","y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Engagement_Time", "x":"counter","y": ["Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" }
+    ]
+  }
+  
+  
+},"violations":{
+  "Counter_193": {
+    "counter_name":"Crown Section",
+    "floor": "Floor 3",
+    "idle_time": "04:50h",
+    "count": 32,
+    "data": [ 
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+  { "name": "Violation", "x":"counter","y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Employee_It","x":"counter", "y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+  { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+  { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+  { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+  { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+    ]
+  },
+  "Counter_194": {
+    "counter_name":"Earring Section",
+    "floor": "Floor 2",
+    "idle_time": "01:00h",
+    "count": 12,
+    "data": [
+      { "name": "Invisible","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#ffffff" },
+      { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" },
+      { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+      { "name": "Employee_It", "x":"counter","y": ["Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BAE0F8" },
+      { "name": "Wait","x":"counter", "y": ["Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"], "fillColor": "#FFE7C7" },
+      { "name": "Counter_Idle","x":"counter", "y": ["Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"], "fillColor": "#2a1800" },
+      { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
+      { "name": "Violation","x":"counter", "y": ["Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"], "fillColor": "#F56056" }
+    ]
+  }
+ 
+
+}
+
+}
+}

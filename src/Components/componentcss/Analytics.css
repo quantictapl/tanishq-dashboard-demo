@@ -1,0 +1,274 @@
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .analytics-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .analytics-button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    font-size: large;
+    transition: all ease-in-out;
+    box-sizing: border-box;
+    padding-bottom: 0.5em;
+    color:grey;
+    font-family: 'Roboto', sans-serif;
+    padding-left:1.5em;
+    font-size: 24px;
+  }
+  .button-one{
+    padding-left: 0%;
+  }
+  
+  .analytics-button:hover {
+    border-bottom: solid black 2px;
+    font-weight: 700;
+    font-size: 24px;
+    color:black;
+    font-family: 'Roboto', sans-serif; 
+  }
+  .analytics-button:focus {
+    border-bottom: solid black 2px;
+    font-weight: 700;
+    font-size: 24px;
+    color:black;
+  }
+  .analytics-button.active{
+    border-bottom: solid black 2px;
+    font-weight: 700;
+    font-size: 24px;
+    color:black;
+  }
+  
+  .tetra-buttons-container {
+    display: flex;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .tetra-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    padding: 2rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    font-size:medium;
+    color: rgb(99, 99, 99);
+    font-family: 'Roboto', sans-serif;
+  }
+  .tetra-button-title{
+    margin-left:0.2em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .tetra-button:hover {
+    border-bottom: solid 3px rgb(12, 162, 189);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to top, rgba(12, 162, 189, 0.1) 0%, rgba(255, 255, 255, 0) 20%);
+    background-color: white;
+  }
+  .tetra-button:focus{
+    border-bottom: solid 3px rgb(12, 162, 189);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to top, rgba(12, 162, 189, 0.1) 0%, rgba(255, 255, 255, 0) 20%);
+    background-color: white;
+  }
+  
+  
+  .tetra-button:hover .counters,
+.tetra-button:focus .counters,
+.tetra-button:hover .counter-one {
+  border-color: rgb(12, 162, 189);
+  color: rgb(12, 162, 189);
+
+}
+  
+  .counters {
+    border: none;
+    border-left: 3px solid rgb(110, 110, 110);
+    font-size: xx-large;
+    margin-top:0.5rem;
+    margin-right:0.2rem;
+    margin-left:0.2rem;
+    justify-content: space-around;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  
+  .counter-one {
+    border-left: none;
+    border-right: none;
+    
+    
+  }
+  .analytics-content{
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    padding:0.5em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+  }
+  .analytics-content-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:1em;
+    font-family: 'Roboto', sans-serif;
+  }
+  .legend-container{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .legend{
+    display:flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 4px;
+    border-radius: 5px; margin-left: 1em;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border:none;
+  }
+ .legend:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+ }
+  .legend-color{
+    height:12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+  }
+  .color-one{
+    background-color:#F56056
+  }
+  .color-two{
+    background-color:#FFE7C7
+  }
+  .color-three{
+    background-color:#BADEC1
+  }
+  .color-four{
+    background-color:#BAE0F8
+  }
+  .color-five{
+    background-color:#2a1800
+  }
+  .question-icon{
+    height: 16px;
+    width:16px;
+    margin-left: 6px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+  }
+  .counter-odd{
+    margin-left:0px;
+  }.analytics-content-middle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    margin-top: 1em;
+    font-family: 'Roboto', sans-serif;
+  }
+  .analytics-chart-header{
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    width:35%;
+    margin-left:1em;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .chart-left-col{
+    display:flex;
+    align-items: center;
+    grid-column: span 1 / span 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    
+    
+}
+.col-three{
+  padding-right:0;
+  padding-left:0;
+}
+
+.analytics-col{
+  align-items: center;
+  display:flex;
+  grid-column: span 1 / span 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+.chart-empty{
+  width:2.5%;
+}
+  .analytics-chart-coordinates{
+    display:flex;
+    width:59.5%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .analytics-timeline{
+    display:flex;
+    width:100%;
+    /* grid-template-columns: repeat(13,5fr); */
+    /* max-width:95%; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    
+  }
+  .chart-empty-2{
+    width:3%;
+  }
+  .analytics-content-main {
+    display: flex;
+    flex-direction: column;
+    max-height: 56vh;
+    height: fit-content;
+    overflow-y: auto; /* Add this to enable vertical scrolling */
+    overscroll-behavior-y: auto;
+    justify-content: space-between;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  

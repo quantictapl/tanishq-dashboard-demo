@@ -1,0 +1,9 @@
+.date-dropdown{
+    background-color: grey;
+    color:white; 
+    padding:0.2rem;
+    border-radius:5px;
+    border-right:6px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

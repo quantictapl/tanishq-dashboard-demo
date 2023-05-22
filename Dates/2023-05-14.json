@@ -1,0 +1,191 @@
+{
+    "Counter_191": {
+      "counter_name":"Diamond Section",
+      "floor": "Floor 1",
+      "idle_time": "02:00h",
+      "count": 54,
+      "data": [ 
+        ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+        ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+        ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"],
+        ["", "Violation", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"],
+        ["", "Wait", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"],
+        ["", "Counter_Idle", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"],
+        ["", "Engagement_Time", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"],
+        ["", "Violation", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)"],
+        ["", "Employee_Idle", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+      ]
+    },
+    "Counter_192": {
+      "counter_name":"Crown Section",
+        "floor": "Floor 5",
+        "idle_time": "01:00h",
+        "count": 80,
+        "data": [
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:25:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 18:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_193": {
+        "counter_name":"Jwellery Section",
+        "floor": "Floor 1",
+        "idle_time": "03:00h",
+        "count": 44,
+        "data": [
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 11:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 11:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 13:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 13:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:45:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 13:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:55:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 14:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 15:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_194": {
+        "counter_name":"Crown Section",
+        "floor": "Floor 3",
+        "idle_time": "02:20h",
+        "count": 33,
+        "data": [ 
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:45:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 17:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:55:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 17:55:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:20:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_195": {
+        "counter_name":"Crown Secion",
+        "floor": "Floor 2",
+        "idle_time": "03:00h",
+        "count": 22,
+        "data": [
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:25:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 18:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_197": {
+        "counter_name":"Diamond Section",
+        "floor": "Floor 2",
+        "idle_time": "01:50h",
+        "count": 21,
+        "data": [ 
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 11:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 11:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 15:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 17:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:55:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 20:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 21:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_198": {
+        "counter_name":"Diamond Section",
+        "floor": "Floor 1",
+        "idle_time": "02:00h",
+        "count": 54,
+        "data": [ 
+          ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Wait", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)"],
+          ["", "Counter_Idle", "Mon May 10 2023 16:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:55:00 GMT+0530 (India Standard Time)"],
+          ["", "Engagement_Time", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)"],
+          ["", "Violation", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)"],
+          ["", "Employee_Idle", "Mon May 10 2023 19:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+        ]
+      },
+      "Counter_199": {
+        "counter_name":"Crown Section",
+          "floor": "Floor 4",
+          "idle_time": "01:00h",
+          "count": 80,
+          "data": [
+            ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Wait", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)"],
+            ["", "Counter_Idle", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:25:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 18:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+          ]
+        },
+        "Counter_200": {
+          "counter_name":"Jwellery Section",
+          "floor": "Floor 1",
+          "idle_time": "03:00h",
+          "count": 44,
+          "data": [
+            ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 11:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 11:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 13:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Wait", "Mon May 10 2023 13:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:45:00 GMT+0530 (India Standard Time)"],
+            ["", "Counter_Idle", "Mon May 10 2023 13:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 13:55:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 14:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 14:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 15:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+          ]
+        },
+        "Counter_201": {
+          "counter_name":"Crown Section",
+          "floor": "Floor 3",
+          "idle_time": "02:20h",
+          "count": 33,
+          "data": [ 
+            ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 16:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Wait", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:45:00 GMT+0530 (India Standard Time)"],
+            ["", "Counter_Idle", "Mon May 10 2023 17:45:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:55:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 17:55:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:20:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+          ]
+        },
+        "Counter_202": {
+          "counter_name":"Crown Secion",
+          "floor": "Floor 2",
+          "idle_time": "03:00h",
+          "count": 22,
+          "data": [
+            ["", "Invisible", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 10:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 12:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 15:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 16:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Wait", "Mon May 10 2023 17:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)"],
+            ["", "Counter_Idle", "Mon May 10 2023 17:15:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 17:25:00 GMT+0530 (India Standard Time)"],
+            ["", "Engagement_Time", "Mon May 10 2023 17:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 18:00:00 GMT+0530 (India Standard Time)"],
+            ["", "Violation", "Mon May 10 2023 18:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)"],
+            ["", "Employee_Idle", "Mon May 10 2023 19:30:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 22:00:00 GMT+0530 (India Standard Time)"]
+          ]
+        }
+      
+
+  }
