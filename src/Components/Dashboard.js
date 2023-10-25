@@ -48,7 +48,7 @@ function Dashboard() {
             <CgMenuRight className="menu-icon" />
           </div>
           <div className="dashboard-left-main">
-            <button
+            <button disabled
               className={`dashboard-icon-container-btn ${
                 activeButton === 0 ? "active" : ""
               }`}
@@ -57,7 +57,7 @@ function Dashboard() {
               <Overview className="icon" />
               <span>Overview</span>
             </button>
-            <button
+            <button 
               className={`dashboard-icon-container-btn ${
                 activeButton === 1 ? "active" : ""
               }`}
@@ -66,7 +66,7 @@ function Dashboard() {
               <Graph className="icon" />
               <span>Analytics</span>
             </button>
-            <button
+            <button disabled
               className={`dashboard-icon-container-btn ${
                 activeButton === 2 ? "active" : ""
               }`}
@@ -75,7 +75,7 @@ function Dashboard() {
               <Report className="icon" />
               <span>Report</span>
             </button>
-            <button
+            <button disabled
               className={`dashboard-icon-container-btn ${
                 activeButton === 3 ? "active" : ""
               }`}
@@ -84,7 +84,7 @@ function Dashboard() {
               <Alert className="icon" />
               <span>Alert</span>
             </button>
-            <button
+            <button disabled
               className={`dashboard-icon-container-btn ${
                 activeButton === 4 ? "active" : ""
               }`}
@@ -93,7 +93,7 @@ function Dashboard() {
               <Support className="ic" />
               <span>Support</span>
             </button>
-            <button
+            <button disabled
               className={`dashboard-icon-container-btn ${
                 activeButton === 5 ? "active" : ""
               }`}
@@ -105,7 +105,7 @@ function Dashboard() {
           </div>
         </div>
 
-        <button
+        <button disabled
           className={`dashboard-left-footer-btn ${
             activeButton === 6 ? "active" : ""
           }`}
@@ -119,9 +119,9 @@ function Dashboard() {
         <div className="dashboard-right-top">
           <div className="dashboard-title-right">
             <span className="dashboard-title-right-span">Welcome!</span>
-            <span className="dashboard-right-subtitle">
-              We are ready to show your store performance
-            </span>
+            {/* <span className="dashboard-right-subtitle">
+             
+            </span> */}
           </div>
           <div className="dashboard-title-end">
             <button className="dashboard-right-icon-btn">

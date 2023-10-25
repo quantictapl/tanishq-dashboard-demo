@@ -2,7 +2,7 @@
     "all_counters":{"Counter_192": {
       "counter_name":"Diamond Section",
       "floor": "4",
-      "idle_time": "01:10h",
+      "idle_time": "04:50:00",
       "count": 41,
       "data": [ 
         { "name": "Engagement_Time","x":"counter", "y": ["Mon May 10 2023 10:00:00 GMT+0530 (India Standard Time)", "Mon May 10 2023 10:30:00 GMT+0530 (India Standard Time)"], "fillColor": "#BADEC1" },
@@ -16,7 +16,7 @@
     "Counter_193": {
       "counter_name":"Necklace Section",
         "floor": "1",
-        "idle_time": "02:20h",
+        "idle_time": "04:50:00",
         "count": 37,
         "data": [
           
@@ -34,7 +34,7 @@
       "Counter_194": {
         "counter_name":"Earring Section",
         "floor": "2",
-        "idle_time": "01:00h",
+        "idle_time": "04:50:00",
         "count": 36,
         "data": [
           
@@ -51,7 +51,7 @@
       "Counter_195": {
         "counter_name":"Diamond Section",
         "floor": "4",
-        "idle_time": "02:20h",
+        "idle_time": "04:50:00",
         "count": 42,
         "data": [ 
          
@@ -74,7 +74,7 @@
     "Counter_195": {
       "counter_name":"Diamond Section",
       "floor": "4",
-      "idle_time": "02:20h",
+      "idle_time": "04:50:00",
       "count": 42,
       "data": [ 
         
@@ -92,7 +92,7 @@
     "Counter_194": {
       "counter_name":"Earring Section",
       "floor": "2",
-      "idle_time": "01:00h",
+      "idle_time": "04:50:00",
       "count": 36,
       "data": [
         
@@ -109,7 +109,7 @@
     "Counter_193": {
       "counter_name":"Necklace Section",
         "floor": "1",
-        "idle_time": "02:20h",
+        "idle_time": "04:50:00",
         "count": 37,
         "data": [
           
@@ -129,7 +129,7 @@
       "Counter_192": {
         "counter_name":"Diamond Section",
         "floor": "4",
-        "idle_time": "01:10h",
+        "idle_time": "04:50:00",
         "count": 41,
         "data": [ 
          
@@ -145,7 +145,7 @@
       "Counter_193": {
         "counter_name":"Necklace Section",
           "floor": "1",
-          "idle_time": "02:20h",
+          "idle_time": "04:50:00",
           "count": 37,
           "data": [
             
@@ -165,7 +165,7 @@
         "Counter_194": {
           "counter_name":"Earring Section",
           "floor": "2",
-          "idle_time": "01:00h",
+          "idle_time": "01:00:00",
           "count":22,
           "data": [
            
@@ -182,7 +182,7 @@
   },"unattended":{"Counter_195": {
     "counter_name":"Necklace Section",
       "floor": "1",
-      "idle_time": "02:20h",
+      "idle_time": "02:20:00",
       "count": 37,
       "data": [
        
@@ -201,7 +201,7 @@
     "Counter_193": {
       "counter_name":"Crown Section",
       "floor": "3",
-      "idle_time": "04:50h",
+      "idle_time": "04:50:00",
       "count": 32,
       "data": [ 
         

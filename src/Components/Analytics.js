@@ -25,6 +25,8 @@ function Analytics() {
   const [violationNumber, setViolationNumber] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isLoadingChartData, setIsLoadingChartData] = useState(true);
+  const [activeLegend, setActiveLegend] = useState(null);
+  
 
   useEffect(() => {
     fetchDates()
@@ -154,6 +156,10 @@ function Analytics() {
     setShowLeastVisited(false);
     setShowMostVisited(false);
   };
+  const handleLegendClick = (legend) => {
+    setActiveLegend((prevLegend) => (prevLegend === legend ? null : legend));
+  };
+  
 
   return (
     <div className="analytics-container">
@@ -167,7 +173,7 @@ function Analytics() {
           >
             Counter Activity
           </button>
-          <button
+          <button disabled
             className={`analytics-button  ${
               activeButton === 1 ? "active" : ""
             }`}
@@ -255,27 +261,48 @@ function Analytics() {
       <div className="analytics-content">
         <div className="analytics-content-top">
           <div className="legend-container">
-            <button className="legend">
+          <button
+              className={`legend ${activeLegend === "Violation" ? "active" : ""}`}
+              onClick={() => handleLegendClick("Violation")}
+            >
               <div className="legend-color color-one"></div>
               <span>Violations</span>
               <Question className="question-icon" height="16px" width="16px" />
             </button>
-            <button className="legend">
+            <button
+              className={`legend ${activeLegend === "Wait" ? "active" : ""}`}
+              onClick={() => handleLegendClick("Wait")}
+            >
               <div className="legend-color color-two"></div>
               <span>Customer Wait Time</span>
               <Question className="question-icon" height="16px" width="16px" />
             </button>
-            <button className="legend">
+            <button
+              className={`legend ${
+                activeLegend === "Engagement_Time" ? "active" : ""
+              }`}
+              onClick={() => handleLegendClick("Engagement_Time")}
+            >
               <div className="legend-color color-three"></div>
               <span>Engagement Time </span>
               <Question className="question-icon" height="16px" width="16px" />
             </button>
-            <button className="legend">
+            <button
+              className={`legend ${
+                activeLegend === "Employee_It" ? "active" : ""
+              }`}
+              onClick={() => handleLegendClick("Employee_It")}
+            >
               <div className="legend-color color-four"></div>
               <span>Employee Idle Time </span>
               <Question className="question-icon" height="16px" width="16px" />
             </button>
-            <button className="legend">
+            <button
+              className={`legend ${
+                activeLegend === "Counter_Idle" ? "active" : ""
+              }`}
+              onClick={() => handleLegendClick("Counter_Idle")}
+            >
               <div className="legend-color color-five"></div>
               <span>Counter Idle Time</span>
               <Question className="question-icon" height="16px" width="16px" />
@@ -309,16 +336,16 @@ function Analytics() {
               <span>10:00</span>
               <span>11:00</span>
               <span>12:00</span>
-              <span>01:00</span>
-              <span>02:00</span>
-              <span>03:00</span>
-              <span>04:00</span>
-              <span>05:00</span>
-              <span>06:00</span>
-              <span>07:00</span>
-              <span>08:00</span>
-              <span>09:00</span>
-              <span>10:00</span>
+              <span>13:00</span>
+              <span>14:00</span>
+              <span>15:00</span>
+              <span>16:00</span>
+              <span>17:00</span>
+              <span>18:00</span>
+              <span>19:00</span>
+              <span>20:00</span>
+              <span>21:00</span>
+              <span>22:00</span>
             </div>
           </div>
           <div className="chart-empty-2"></div>
@@ -335,6 +362,8 @@ function Analytics() {
               jsonData={jsonData}
               isLoadingChartData={isLoadingChartData}
               setIsLoadingChartData={setIsLoadingChartData}
+              activeLegend={activeLegend}
+              
             />
           ) : (
             <div>Loading...</div>

@@ -19,19 +19,19 @@
 }
 
 .dashboard-title-right {
-    align-items: flex-start;
-    justify-content: left;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-.dashboard-right-subtitle{
+/* .dashboard-right-subtitle{
     font-weight: 300;
     color:rgb(199, 199, 199);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
+} */
 
 .dashboard-title-right-span {
     font-weight: 700;
@@ -83,7 +83,7 @@
     color:rgb(161, 161, 161);
 }
 .dashboard-right-main{
-    height:100vh;
+    height:100%;
     background-color: rgb(241, 241, 241);
     width:81.5vw;
     padding:2rem;

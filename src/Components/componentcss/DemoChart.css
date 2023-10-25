@@ -47,6 +47,7 @@ foreignObject{
   align-items: center;
   justify-content: center; width: 100%;
   position:relative;
+  z-index:1;
 }
 .apexcharts-canvas{
   display: flex;
@@ -62,7 +63,7 @@ foreignObject{
   top:-27px;
   position: relative;
 }
-.custom-tooltip {
+/* .custom-tooltip {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -73,18 +74,29 @@ foreignObject{
   padding: 5px;
   font-size: 12px;
   border-radius: 4px;
-  /* pointer-events: none; */
-  z-index: 100;
-  /* Adjust the width and height as needed */
   width: 120px;
-  height: auto;
-  /* Adjust the positioning of the tooltip */
+  height: auto; 
   left: 50%;
   top:80%;
-  transform: translateX(-50%);
-  /* Add any additional styling as per your requirement */
-}
+  transform: translateX(-50%); 
+} */
 .apexcharts-tooltip{
-  position:absolute;
-  top:80%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  z-index: 100 !important;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  opacity:0.3;
+  top:8px !important;
+}
+.apexcharts-yaxistooltip{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  z-index: 120;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  opacity:0.3;
 }

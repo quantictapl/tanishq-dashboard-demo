@@ -13,9 +13,12 @@ function Chart({
   jsonData,
   isLoadingChartData,
   setIsLoadingChartData,
+  
+  activeLegend
 }) {
   
   const [sortedData, setSortedData] = useState([]);
+  
  
 
   useEffect(() => {
@@ -77,19 +80,21 @@ function Chart({
           return counterNo;
         };
 
-        const processedData = filteredData.map((counter) => {
-          const counterData = getCounterData(counter);
-          const counterNumber = getCounterNumber(counter);
-          const sortedCounterData = counterData.sort(
-            (a, b) => new Date(a[2]) - new Date(b[2])
-          );
+        const processedData = filteredData
+          .map((counter) => {
+            const counterData = getCounterData(counter);
+            const counterNumber = getCounterNumber(counter);
+            const sortedCounterData = counterData.sort(
+              (a, b) => new Date(a[2]) - new Date(b[2])
+            );
 
-          return {
-            counter,
-            counterData: sortedCounterData,
-            counterNumber,
-          };
-        });
+            return {
+              counter,
+              counterData: sortedCounterData,
+              counterNumber,
+            };
+          })
+          .sort((a, b) => a.counter.floor - b.counter.floor);
 
         setSortedData(processedData);
         setIsLoadingChartData(false);
@@ -111,34 +116,187 @@ function Chart({
   // console.log(sortedData)
   return (
     <div className="chart-container">
-     {sortedData.map(({ counter, counterData, counterNumber }) => (
-        <div className="analytics-chart-container" key={counterNumber}>
-          <div className="analytics-chart-left">
-            <div className="chart-left-col col-one">
-              <span>Counter {counter.counter_name}</span>
-              <span>Floor {counter.floor}</span>
+      {sortedData.map(({ counter, counterData, counterNumber }) => {
+        // Format the idle_time string if available
+        const idleTime = counter?.idle_time || '';
+        const [hours, minutes, seconds] = idleTime.split(':');
+        const formattedIdleTime = `${hours.padStart(2, '0')}h ${minutes.padStart(2, '0')}m ${seconds.padStart(2, '0')}s`;
+  
+        return (
+          <div className="analytics-chart-container" key={counterNumber}>
+            <div className="analytics-chart-left">
+              <div className="chart-left-col col-one">
+                <span>Counter {counter.counter_name}</span>
+                <span>Floor {counter.floor==="0" ? "G": counter.floor }</span>
+              </div>
+              <div className="chart-left-col col-two">
+                <span>{formattedIdleTime}</span>
+              </div>
+              <div className="chart-left-col col-three">
+                <span>{counter.count === 0 ? "...processing" : counter.count}</span>
+              </div>
             </div>
-            <div className="chart-left-col col-two">
-              <span>{counter.idle_time}h</span>
-            </div>
-            <div className="chart-left-col col-three">
-              <span>{counter.count}</span>
+            <div className="analytics-chart-right">
+              <DemoChart
+                counterData={counterData}
+                counterNumber={counterNumber}
+                sortedData={sortedData}
+                activeLegend={activeLegend}
+              />
             </div>
           </div>
-          <div className="analytics-chart-right">
-            <DemoChart
-              counterData={counterData}
-              counterNumber={counterNumber}
-              sortedData={sortedData}
-            />
-          </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
 
 export default Chart;
+
+
+
+
+// import React, { useEffect, useState } from "react";
+// import "./componentcss/Chart.css";
+// import DemoChart from "./DemoChart";
+// import { fetchData,getData } from "./FetchCounterData";
+
+// function Chart({
+//   selectedDate,
+//   selectedFloor,
+//   showMostVisited,
+//   showLeastVisited,
+//   showUnattended,
+//   showViolations,
+//   jsonData,
+//   isLoadingChartData,
+//   setIsLoadingChartData,
+// }) {
+  
+//   const [sortedData, setSortedData] = useState([]);
+ 
+
+//   useEffect(() => {
+//     setIsLoadingChartData(true);
+
+//     fetchData(
+//       selectedDate,
+//       selectedFloor,
+//       showMostVisited,
+//       showLeastVisited,
+//       showUnattended,
+//       showViolations
+//     )
+//       .then((data) => {
+//         const filteredData = Object.values(
+//           showMostVisited
+//             ? data?.analytics?.most_visited || {}
+//             : showLeastVisited
+//             ? data?.analytics?.least_visited || {}
+//             : showUnattended
+//             ? data?.analytics?.unattended || {}
+//             : showViolations
+//             ? data?.analytics?.violations || {}
+//             : data?.all_counters || {}
+//         ).filter(
+//           (counter) =>
+//             counter.floor === selectedFloor || selectedFloor === "All Floors"
+//         );
+
+//         const getCounterData = (counter) => {
+//           return counter.data || [];
+//         };
+
+//         const getCounterNumber = (counter) => {
+//           if (!counter) {
+//             return "";
+//           }
+
+//           const allCounters = data.all_counters || {};
+//           const mostVisited = data.analytics.most_visited || {};
+//           const leastVisited = data.analytics.least_visited || {};
+//           const unattended = data.analytics.unattended || {};
+//           const violations = data.analytics.violations || {};
+
+//           const counterNumber =
+//             Object.keys(allCounters).find(
+//               (key) => allCounters[key] === counter
+//             ) ||
+//             Object.keys(mostVisited).find(
+//               (key) => mostVisited[key] === counter
+//             ) ||
+//             Object.keys(leastVisited).find(
+//               (key) => leastVisited[key] === counter
+//             ) ||
+//             Object.keys(unattended).find((key) => unattended[key] === counter) ||
+//             Object.keys(violations).find((key) => violations[key] === counter);
+
+//           const counterNo = counterNumber ? counterNumber.split("_")[1] : "";
+//           return counterNo;
+//         };
+
+//         const processedData = filteredData.map((counter) => {
+//           const counterData = getCounterData(counter);
+//           const counterNumber = getCounterNumber(counter);
+//           const sortedCounterData = counterData.sort(
+//             (a, b) => new Date(a[2]) - new Date(b[2])
+//           );
+
+//           return {
+//             counter,
+//             counterData: sortedCounterData,
+//             counterNumber,
+//           };
+//         });
+
+//         setSortedData(processedData);
+//         setIsLoadingChartData(false);
+//       })
+//       .catch((error) => {
+//         console.log("Error fetching/updating chart data:", error);
+//         setIsLoadingChartData(false);
+//       });
+//   }, [
+//     selectedDate,
+//     selectedFloor,
+//     showMostVisited,
+//     showLeastVisited,
+//     showUnattended,
+//     showViolations,
+//     setIsLoadingChartData,
+//   ]);
+//   // console.log(jsonData)
+//   // console.log(sortedData)
+//   return (
+//     <div className="chart-container">
+//      {sortedData.map(({ counter, counterData, counterNumber }) => (
+//         <div className="analytics-chart-container" key={counterNumber}>
+//           <div className="analytics-chart-left">
+//             <div className="chart-left-col col-one">
+//               <span>Counter {counter.counter_name}</span>
+//               <span>Floor {counter.floor}</span>
+//             </div>
+//             <div className="chart-left-col col-two">
+//               <span>{counter.idle_time}h</span>
+//             </div>
+//             <div className="chart-left-col col-three">
+//               <span>{counter.count}</span>
+//             </div>
+//           </div>
+//           <div className="analytics-chart-right">
+//             <DemoChart
+//               counterData={counterData}
+//               counterNumber={counterNumber}
+//               sortedData={sortedData}
+//             />
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default Chart;
 
 // import React, { useContext, useEffect, useState } from "react";
 // import "./componentcss/Chart.css";

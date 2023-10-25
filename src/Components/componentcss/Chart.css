@@ -1,7 +1,9 @@
 .chart-container{
-    height:56vh;
+    height:56%;
     overflow-y: auto;
-    padding-top:25px;
+    /* padding-top:0.6rem; */
+    z-index:1;
+    
 }
 .analytics-chart-container{
     display: flex;
@@ -58,5 +60,17 @@
     justify-content: center;
     position: relative;
     width:65%;
+}
+@media screen and (max-width: 1444px) {
+  
+    .chart-container{
+        height:48vh;
+        overflow-y: auto;
+        /* padding-top:0.6rem; */
+        z-index:1;
+        
+    }
+  
+    
 }
 
